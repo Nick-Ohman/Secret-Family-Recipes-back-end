@@ -1,6 +1,6 @@
-# backend
+# Secret Family Recipes API
 
-Secret Family Recipes Cookbook API
+
 Base URL: https://secret-family-recipes-1.herokuapp.com/
 user:
 
