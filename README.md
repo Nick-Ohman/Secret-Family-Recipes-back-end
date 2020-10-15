@@ -29,7 +29,7 @@ Base URL: https://secret-family-recipes-1.herokuapp.com/
 # Ingredients
 
 | Endpoint                         | Purpose                       | Success Response                   | Success Code |
-| --------------------- ----       | -------------------------     | -----------------------------------| ------------ |
+| ---------------------------------| ----------------------------- | -----------------------------------| ------------ |
 | Get /api/ingredients             | Geting a list of ingredients  | List a ingredients                 | 200          |
 | Get /api/ingredients/:id         | Getting ingredients by ID     | Returns single ingredients by ID   | 200          |
 | Get /api/recipes/:id/ingredients | Getting ingredients recipe ID | Returns single ingredients by ID   | 200          |
@@ -42,7 +42,7 @@ Base URL: https://secret-family-recipes-1.herokuapp.com/
 # Categories
 
 | Endpoint                             | Purpose                               | Success Response                   | Success Code |
-| --------------------- ---- --------  | ------------------------- ------------| -----------------------------------| ------------ |
+| -------------------------------------|---------------------------------------| -----------------------------------| ------------ |
 | Get /api/recipes/categories          | Returns a list if existing categories | List of existing categories        | 200          |
 | Post /api/categories                 | Post new recipe category              | category created                   | 201          |
 | Put /api/recipes/categories/:id      | Edit/Modify category                  | category edited                    | 200          |
@@ -52,7 +52,7 @@ Base URL: https://secret-family-recipes-1.herokuapp.com/
 # Steps
 
 | Endpoint                             | Purpose                               | Success Response     | Success Code |
-| --------------------- ---- --------  | ------------------------- ------------| ---------------------| ------------ |
+| -------------------------------------| --------------------------------------| ---------------------| ------------ |
 | Get /api/recipes/:id/steps           | Returns a list of steps for recipe    | List of steps        | 200          |
 | Post /api/recipes/steps              | Post new recipe instruction           | list of steps        | 201          |
 
